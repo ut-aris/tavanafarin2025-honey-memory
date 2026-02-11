@@ -1,0 +1,49 @@
+participant_id,handedness,age,note,sex,conners_total_score
+ADHD #1,right,7.5,Talked a lot,M,
+ADHD #2,right,8.0,Moved a lot,M,
+ADHD #3,right,6.5,"Selected cells very slowly, showed behavioral reactions, especially after misclicks",M,
+ADHD #4,right,10.0,"performed very well, selected cells very rapidly",M,
+ADHD #5,right,9.0,was distracted moderately,F,
+ADHD #6,right,8.0,"RULED OUT FROM PAPER ANALYSIS, possibly autistic (and other disorders), biased toward cells to the right side of the screen, problems in speech, had a strong reaction upon correct click",F,
+ADHD #7,right,8.0,,M,
+ADHD #8,left,7.0,"slow click speed, strong reaction upon misclick, played half the trial with the right hand and then switched hands to left for the rest",F,
+ADHD #9,left,9.5,,M,
+ADHD #10,right,11.0,RULED OUT BY AGE,M,
+ADHD #11,right,8.0,,F,
+ADHD #12,right,8.0,"wears glasses usually but did not wear them on the experiment per request, strong reaction on misclick",F,
+ADHD #13,right,9.5,strong reaction on misclick,F,
+ADHD #14,right,8.0,"extremely hyperactive, had to use toilet mid-experiment, started walking mid-experiment, sat him down and repeated the experiment again",M,
+ADHD #15,left,7.0,"RULED OUT, autistic",M,
+ADHD #16,right,9.0,talked a lot,M,
+ADHD #17,right,7.0,,M,
+ADHD #18,right,7.0,,M,
+ADHD #19,right,7.5,"wore glasses but did not wear them on experiment per request, the experiment made him tired",M,
+ADHD #20,right,7.0,strong reaction to difficulty increase and misclicks,F,
+ADHD #21,right,7.0,was distracted very frequently,F,
+ADHD #22,right,7.0,"highly hyperactive, got tired frequently",F,
+ADHD #23,right,8.0,,M,
+ADHD #24,right,10.0,,M,
+ADHD #25,right,7.5,,M,
+Control #1,right,7.0,,M,2.0
+Control #2,right,8.0,"Performed very well, strong reaction to wrong clicks",M,0.0
+Control #3,right,8.0,,M,0.0
+Control #4,right,8.0,,M,12.0
+Control #5,right,8.0,"wore glasses but did not wear them on experiment per request (could see well enough without them), eyes got sore after 10th trial and performance dropped",M,22.0
+Control #6,right,9.0,,M,12.0
+Control #7,right,9.0,"strong reaction to misclicks, wore glasses but did not wear them on experiment per request (could see well enough without them)",M,20.0
+Control #8,right,7.5,,M,2.0
+Control #9,right,8.0,,M,
+Control #10,right,8.0,,M,3.0
+Control #11,right,7.0,performed very poorly,M,7.0
+Control #12,right,9.0,"talked a lot, frequent strong reaction, performed very well",M,0.0
+Control #13,right,9.0,,M,2.0
+Control #14,right,9.0,,M,4.0
+Control #15,right,8.0,,M,1.0
+Control #16,right,8.0,,M,7.0
+Control #17,right,9.0,"RULED OUT AS TURNED OUT OT BE ADHD, frequent strong reaction",M,
+Control #18,right,8.0,,M,4.0
+Control #19,right,8.0,,M,4.0
+Control #20,right,8.0,,M,10.0
+Control #21,right,8.0,,M,5.0
+Control #22,right,9.0,,M,11.0
+Control #23,right,9.0,,M,5.0
