@@ -1,39 +1,10 @@
 # Clinic B Dataset - CSV Documentation
 
-This folder contains two CSV files with experimental data from Clinic B of a visuospatial working memory study using a serious game called **Honey Memory**.
-
-## About the Honey Memory Game
-
-Honey Memory is a game-based task designed to assess visuospatial working memory in children. The game comprises five difficulty levels, each presenting a spatial memory challenge where participants must memorize and recall the locations of target hexagons on a grid.
-
-### Game Mechanics
-
-- **Cue phase (encoding)**: A set of yellow target hexagons appears briefly on a grid (2-4 seconds depending on difficulty)
-- **Recall phase (response)**: The board turns blank, and participants must click all target hexagons in any order
-- **Feedback**: Correct selections turn green; incorrect selections turn red
-- **Progression**: The difficulty increases progressively across 5 levels (Levels 5, 10, 13, 16, and 18), each defined by:
-  - Total number of hexagons on the board
-  - Number of target hexagons to memorize
-  - Spatial dispersion of targets across the screen
-
-### Study Design
-
-This dataset comes from **Clinic B**, where a custom Python-based implementation of Honey Memory was deployed on a laptop with mouse-based interaction. Clinic B used **fixed spatial patterns** across trials, enabling precise analysis of spatial strategies and movement patterns.
-
-A total of **36 participants** were tested: 25 children diagnosed with ADHD and 11 typically developing controls (ages 7-10). Valid data was collected from **16 ADHD and 20 Control participants**.
-
-### Game Interface
-
-Below is a screenshot of the Honey Memory game interface used in this study:
-
-![Honey Memory Clinic B Interface](images/Figure_1b.png)
-*Honey Memory trial flow: Cue phase (target hexagons appear), Recall phase (participant selects targets), and Feedback phase.*
-
----
-
-## Data Files
-
 This folder contains two CSV files with experimental data from Clinic B:
+1. **trials.csv** - Trial-level response data
+2. **participants.csv** - Participant-level metadata and scores
+
+## trials.csv
 
 Contains detailed data for each of the 24 trials completed by each participant.
 
@@ -78,7 +49,7 @@ Contains participant-level demographic information and behavioral assessment sco
 | `conners_total_score` | float | Teacher-rated Conners Score (raw total, higher indicates more ADHD-related behaviors) |
 
 ### Notes
-- Total participants: 36 (25 ADHD + 11 Control in metadata)
+- Total participants (final): 43 (23 ADHD + 20 Control in metadata)
 - **Important**: Some participants are excluded from the trials dataset (noted in the `note` column):
   - ADHD #4, #6, #10, #15, #24 (see `note` for exclusion reason)
   - Control #17 (misclassified as ADHD)
