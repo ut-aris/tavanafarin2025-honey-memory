@@ -20,7 +20,7 @@ Honey Memory is a game-based task designed to assess visuospatial working memory
 
 This dataset comes from **Clinic B**, where a custom Python-based implementation of Honey Memory was deployed on a laptop with mouse-based interaction. Clinic B used **fixed spatial patterns** across trials, enabling precise analysis of spatial strategies and movement patterns.
 
-Valid data was collected from **23 ADHD and 20 Control participants**.
+A total of **36 participants** were tested: 25 children diagnosed with ADHD and 11 typically developing controls (ages 7-10). Valid data was collected from **16 ADHD and 20 Control participants**.
 
 ### Game Interface
 
@@ -57,6 +57,7 @@ Contains detailed data for each of the 24 trials completed by each participant.
 
 ### Notes
 - Each row represents one trial from one participant
+- Total trials: 384 (16 valid ADHD participants × 24 trials + 20 valid Control participants × 24 trials)
 - Excluded participants: ADHD #4, #6, #10, #15, #24 (data quality issues noted in participants metadata)
 
 ---
@@ -124,10 +125,12 @@ For the full CC BY 4.0 legal code, see: https://creativecommons.org/licenses/by/
 ---
 
 ## How to Cite
-TBD
-
-### Citation File
-
-TBD
-
----
+**If you use this dataset in your research, please cite:**
+```bibtex
+@article{arabzadeh2026beyond,
+  title={Beyond Accuracy: Interpretable Behavioural Profiling of Children With ADHD Using a Visuospatial Working Memory Game},
+  author={Arabzadeh, Mohammad and Shokravi, Keyvan and Shahangian, Seyed Ariyan and Zakani, Zeinab and Kambarani, Nima and Bahrami Esfarjani, Zahra and Kabki, Mozhgan and Vahabie, Abdol-Hossein and Moradi, Hadi},
+  journal={Available at SSRN 6221378},
+  year={2026}
+}
+```
