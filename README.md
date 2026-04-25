@@ -20,7 +20,7 @@ Honey Memory is a game-based task designed to assess visuospatial working memory
 
 This dataset comes from **Clinic B**, where a custom Python-based implementation of Honey Memory was deployed on a laptop with mouse-based interaction. Clinic B used **fixed spatial patterns** across trials, enabling precise analysis of spatial strategies and movement patterns.
 
-A total of **36 participants** were tested: 25 children diagnosed with ADHD and 11 typically developing controls (ages 7-10). Valid data was collected from **16 ADHD and 20 Control participants**.
+A total of **51 participants** were tested: 28 children diagnosed with ADHD and 23 typically developing controls (ages 7-10). Valid data was collected from **23 ADHD and 20 Control participants**.
 
 ### Game Interface
 
@@ -35,7 +35,9 @@ Below is a screenshot of the Honey Memory game interface used in this study:
 
 This folder contains two CSV files with experimental data from Clinic B:
 
-Contains detailed data for each of the 24 trials completed by each participant.
+### trials.csv
+
+Contains detailed data for each of the 20 trials completed by each participant.
 
 ### Columns
 
@@ -43,7 +45,7 @@ Contains detailed data for each of the 24 trials completed by each participant.
 |--------|------|-------------|
 | `participant_id` | string | Unique participant identifier (e.g., "ADHD #5", "Control #12") |
 | `level` | integer | Difficulty level of the pattern (ranges from 5 to 26) |
-| `trial_number` | integer | Sequential trial number (1-24) |
+| `trial_number` | integer | Sequential trial number (1-20) |
 | `click_correctness_sequence` | list of boolean | Sequence of True/False for each click (True = correct, False = incorrect) |
 | `click_response_times_ms` | list of integer | Response times for each click in milliseconds |
 | `gray_hex_indices` | list of integer | Indices of disabled/unavailable hexagons in the grid |
@@ -57,8 +59,8 @@ Contains detailed data for each of the 24 trials completed by each participant.
 
 ### Notes
 - Each row represents one trial from one participant
-- Total trials: 384 (16 valid ADHD participants × 24 trials + 20 valid Control participants × 24 trials)
-- Excluded participants: ADHD #4, #6, #10, #15, #24 (data quality issues noted in participants metadata)
+- Total valid trials: 860 (23 valid ADHD participants × 20 trials + 20 valid Control participants × 20 trials). Note: The CSV contains 980 total trials for 49 participants, including some excluded data.
+- Excluded participants (not part of the 43 valid): ADHD #4, #6, #10, #15, #24, Control #1, and Control #17 (data quality issues noted in participants metadata)
 
 ---
 
@@ -78,9 +80,11 @@ Contains participant-level demographic information and behavioral assessment sco
 | `conners_total_score` | float | Teacher-rated Conners Score (raw total, higher indicates more ADHD-related behaviors) |
 
 ### Notes
-- Total participants (final): 43 (23 ADHD + 20 Control in metadata)
-- **Important**: Some participants are excluded from the trials dataset (noted in the `note` column):
+- Total participants originally logged in metadata: 51 (28 ADHD + 23 Control)
+- Total valid participants for final analysis: 43 (23 ADHD + 20 Control)
+- **Important**: Some participants are excluded from the reported final analysis (noted in the `note` column):
   - ADHD #4, #6, #10, #15, #24 (see `note` for exclusion reason)
+  - Control #1 (missing trial data completely)
   - Control #17 (misclassified as ADHD)
 - Conners scores are based on teacher ratings
 - Age is in decimal years (e.g., 7.5 = 7 years 6 months)
@@ -97,8 +101,8 @@ Common exclusion reasons include:
 ## Data Relationships
 
 - Use `participant_id` as the primary key to link trials to participant metadata
-- Each participant has exactly 24 trials in `trials.csv`
-- Trial difficulty levels follow a progression from levels 5-26 across trials 1-24
+- Each participant has exactly 20 trials in `trials.csv`
+- Trial difficulty levels follow a progression from levels 5-26 across trials 1-20
 
 ## File Format
 
