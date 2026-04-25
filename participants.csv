@@ -2,7 +2,7 @@ participant_id,handedness,age,note,sex,conners_total_score
 ADHD #1,right,7.5,Talked a lot,M,
 ADHD #2,right,8.0,Moved a lot,M,
 ADHD #3,right,6.5,"Selected cells very slowly, showed behavioral reactions, especially after misclicks",M,
-ADHD #4,right,10.0,"performed very well, selected cells very rapidly",M,
+ADHD #4,right,10.0,"RULED OUT. performed very well, selected cells very rapidly",M,
 ADHD #5,right,9.0,was distracted moderately,F,
 ADHD #6,right,8.0,"RULED OUT FROM PAPER ANALYSIS, possibly autistic (and other disorders), biased toward cells to the right side of the screen, problems in speech, had a strong reaction upon correct click",F,
 ADHD #7,right,8.0,,M,
@@ -22,8 +22,11 @@ ADHD #20,right,7.0,strong reaction to difficulty increase and misclicks,F,
 ADHD #21,right,7.0,was distracted very frequently,F,
 ADHD #22,right,7.0,"highly hyperactive, got tired frequently",F,
 ADHD #23,right,8.0,,M,
-ADHD #24,right,10.0,,M,
+ADHD #24,RULED OUT BY AGE,10.0,,M,
 ADHD #25,right,7.5,,M,
+ADHD #26,right,9.0,,M,
+ADHD #27,right,9.0,,F,
+ADHD #28,right,7.0,,F,
 Control #1,right,7.0,,M,2.0
 Control #2,right,8.0,"Performed very well, strong reaction to wrong clicks",M,0.0
 Control #3,right,8.0,,M,0.0
