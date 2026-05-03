@@ -135,6 +135,8 @@ For the full CC BY 4.0 legal code, see: https://creativecommons.org/licenses/by/
   title={Beyond Accuracy: Interpretable Behavioural Profiling of Children With ADHD Using a Visuospatial Working Memory Game},
   author={Arabzadeh, Mohammad and Shokravi, Keyvan and Shahangian, Seyed Ariyan and Zakani, Zeinab and Kambarani, Nima and Bahrami Esfarjani, Zahra and Kabki, Mozhgan and Vahabie, Abdol-Hossein and Moradi, Hadi},
   journal={Available at SSRN 6221378},
-  year={2026}
+  year={2026},
+  doi={10.2139/ssrn.6221378},
+  url={https://dx.doi.org/10.2139/ssrn.6221378}
 }
 ```
